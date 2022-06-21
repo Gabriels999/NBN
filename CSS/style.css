@@ -1,0 +1,83 @@
+/* BARRA DE NAVEGAÇÃO - LOGO E BOTOẼS */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 113px;
+    align-items: center;
+}
+
+.navbar>img{
+    width: 19%;
+    height: 75%;
+    align-items: center;
+    padding-right: 500px;
+    padding-top: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.nav>a{
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #dfbd76;
+    font-size: 20px;
+    font-weight: bold
+    
+}
+
+.botao_navbar{
+    background-color: #dfbd76;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* PRIMEIRA PARTE - TÍTULO, BOTÃO E IMAGEM (Conheça nossas áreas...) */
+
+.first-page{
+    background-color: #1b273d;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-page>img{
+    display: flex;
+    width: 50%;
+    height: 80%;
+}
+
+.description>h1{
+    padding-left: 120px;
+    display: flex;
+    width: 50%;
+    color: #ffffff;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.description>a{
+    color: #ffffff;
+    background-color: #dfbd76;
+    padding: 20px 30px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.second-page{
+    margin-top: 20%;
+}
+
